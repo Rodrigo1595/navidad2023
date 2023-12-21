@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>¡Feliz Navidad desde una galaxia muy, muy lejana!</title>
+  </head>
+  <body>
+    <div class="container">
+      <img class="imgPrincipal" src="images/star-wars-logo.svg" alt="Logo de Star Wars" />
+      <h1>¡Feliz Navidad desde una galaxia muy, muy lejana!</h1>
+      <img class="imgPrincipal" src="images/darth-vader.jpg" alt="Darth Vader como Papá Noel" />
+      <p>Que la Fuerza te acompañe en estas fiestas.</p>
+      <audio id="audioPlayer" controls autoplay>
+        <source src="assets/audio/SWPagina.mp3" type="audio/mp3" />
+        Tu navegador no soporta la etiqueta de audio.
+      </audio>
+      <div class="tarjeta"><p id="message"></p></div>
+
+      <button onclick="changeMessage()">
+        Click aquí para datos de navidad de star wars 😊👽👾
+      </button>
+    </div>
+    <div class="container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
